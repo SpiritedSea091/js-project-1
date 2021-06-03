@@ -1,0 +1,168 @@
+.attribution { font-size: 11px; text-align: center; display: none}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* Applying body-wide fonts */
+body{
+  font-family: "Spartan", sans-sans-serif;
+  font-size: 12px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+
+}
+h1{
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+h2{
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+p{
+  font-size: 0.7rem;
+  color: hsl(0, 0%, 63%);
+  font-weight: 500;
+}
+
+/* Getting the Arrow sliders to show properly _____________________________*/
+.arrows{
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  /* padding: 4%; */
+  display: flex;
+
+  /* height: 50px; */
+}
+.left-arrow-box{
+  width: 50%;
+  height: 100%;
+  padding: 25px 10px;
+}
+.right-arrow-box{
+  width: 50%;
+  height: 100%;
+  padding: 25px 10px;
+}
+.col-8{
+  padding: 0;
+}
+.col-4{
+  position: relative;
+}
+.col-4, .col-8{
+  max-height: 100%;
+}
+.arrow-img{
+  width:  30px;
+   height: 30px;
+  margin: 0 15px;
+
+}
+.right-arrow-box:hover{
+  background-color: hsl(0, 0%, 27%);
+}
+
+.left-arrow-box:hover{
+  background-color: hsl(0, 0%, 27%);
+}
+
+
+/* Styling the "SHOP NOW" CTA _____________________________*/
+.cta{
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+div.cta{
+  display: flex;
+
+  height: 20%;
+}
+.arrow{
+  width: 60px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.cta:hover{
+  color: hsl(0, 0%, 63%);
+  filter: invert(75%) sepia(9%) saturate(6%) hue-rotate(328deg) brightness(85%) contrast(87%);
+}
+
+/* Controlling the visibility of different carousel slides_________________________________________ */
+.hide{
+  display: none;
+}
+/* _____________________________ */
+
+/* Styling the Navbar */
+.navbar{
+  position: absolute;
+  left: 4%;
+  top: 6%;
+  font-family: sans-serif;
+  font-weight: bold;
+  z-index: 1;
+  padding: 0;
+}
+
+.nav-link, .navbar-brand{
+  margin: 0 10px;
+  padding: 0;
+  /* padding: 15px 0; */
+}
+.navbar-brand{
+  height: 100%;
+}
+.nav-link:hover{
+  border-bottom: 2px solid;
+}
+/* _____________________________ */
+.row{
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-box{
+  padding: 18% 12%;
+}
+.about-box{
+  padding: 12% 5%;
+}
+/* Layout Refinement */
+.col-8{
+  width: 60%;
+}
+.col-4{
+  width: 40%;
+}
+.col-3{
+  width: 30%;
+}
+.col-6{
+  width: 40%;
+}
+
+/* ABOUT SECTION ________________________________________________ */
+.about-img{
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive Desktop Layout */
+.carousel{
+  height: 65vh;
+}
+
+.about-row{
+  height: 35vh;
+}
